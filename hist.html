@@ -1,0 +1,24 @@
+
+<html>
+	<head>
+		<title>Histogram Tool</title>
+		<script language="JavaScript" src="Chart.js"></script>
+		<script language="JavaScript" src="jquery-2.0.3.min.js"></script>
+		<!-- <link rel=StyleSheet href="color_collage.css" type="text/css" media="screen"> -->
+	</head>
+	<body>
+		<div class="input">
+			Paste Data Here:<input id="paste" type="text" /></br>
+			<table id="table_data"></table>
+		</div>
+		<div class="settings">
+			lowest bin value:<input class="settings" type="text" id="low" value="0"/></br>
+			bin width:<input class="settings" type="text" id="width" value="1"/></br>
+			# of bins:<input class="settings" type="text" id="max" value="1"/></br>
+		</div>
+
+		<canvas id="cvs" width="800" height="500"></canvas>
+
+	</body>
+	<script language="JavaScript" src="hist.js"></script>
+</html>
